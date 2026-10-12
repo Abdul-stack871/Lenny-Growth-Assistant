@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-labelledby="t d" preserveAspectRatio="xMidYMid meet" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="t">Lenny Growth Assistant system overview</title>
+  <desc id="d">A React and TypeScript frontend sends REST JSON requests to a FastAPI backend. The backend contains API endpoints, transcript retrieval, template-based agents and a SQLAlchemy layer. It reads transcripts.json, calls Ollama for chat answers, and stores data in PostgreSQL with an automatic SQLite fallback.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="958" height="478" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="480" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2328">Lenny Growth Assistant: system overview</text>
+
+  <!-- Frontend -->
+  <rect x="30" y="70" width="230" height="330" rx="12" fill="#eef6ff" stroke="#1f6feb" stroke-width="2"/>
+  <text x="145" y="100" text-anchor="middle" font-size="19" font-weight="700" fill="#0b3d91">Frontend</text>
+  <text x="145" y="122" text-anchor="middle" font-size="14" fill="#1f2328">React 19 · TypeScript · Vite</text>
+  <rect x="50" y="140" width="190" height="44" rx="8" fill="#ffffff" stroke="#9bbcf0"/>
+  <text x="145" y="168" text-anchor="middle" font-size="16" fill="#1f2328">Chat</text>
+  <rect x="50" y="196" width="190" height="44" rx="8" fill="#ffffff" stroke="#9bbcf0"/>
+  <text x="145" y="224" text-anchor="middle" font-size="16" fill="#1f2328">Writing Studio</text>
+  <rect x="50" y="252" width="190" height="44" rx="8" fill="#ffffff" stroke="#9bbcf0"/>
+  <text x="145" y="280" text-anchor="middle" font-size="16" fill="#1f2328">Artifact Builder</text>
+  <rect x="50" y="308" width="190" height="72" rx="8" fill="#ffffff" stroke="#9bbcf0"/>
+  <text x="145" y="334" text-anchor="middle" font-size="16" fill="#1f2328">AppContext state</text>
+  <text x="145" y="358" text-anchor="middle" font-size="14" fill="#57606a">apiClient + demo fallback</text>
+
+  <!-- Backend -->
+  <rect x="360" y="70" width="300" height="330" rx="12" fill="#effaf3" stroke="#1a7f37" stroke-width="2"/>
+  <text x="510" y="100" text-anchor="middle" font-size="19" font-weight="700" fill="#0f5323">FastAPI backend</text>
+  <text x="510" y="122" text-anchor="middle" font-size="14" fill="#1f2328">served by Uvicorn on port 8000</text>
+  <rect x="380" y="140" width="260" height="52" rx="8" fill="#ffffff" stroke="#8fcea0"/>
+  <text x="510" y="164" text-anchor="middle" font-size="16" fill="#1f2328">API endpoints /api/v1</text>
+  <text x="510" y="183" text-anchor="middle" font-size="13" fill="#57606a">chat · writing · artifacts · insights</text>
+  <rect x="380" y="204" width="260" height="52" rx="8" fill="#ffffff" stroke="#8fcea0"/>
+  <text x="510" y="228" text-anchor="middle" font-size="16" fill="#1f2328">Transcript retrieval</text>
+  <text x="510" y="247" text-anchor="middle" font-size="13" fill="#57606a">keyword scoring · citations</text>
+  <rect x="380" y="268" width="260" height="52" rx="8" fill="#ffffff" stroke="#8fcea0"/>
+  <text x="510" y="292" text-anchor="middle" font-size="16" fill="#1f2328">Agent layer</text>
+  <text x="510" y="311" text-anchor="middle" font-size="13" fill="#57606a">essay and artifact templates</text>
+  <rect x="380" y="332" width="260" height="52" rx="8" fill="#ffffff" stroke="#8fcea0"/>
+  <text x="510" y="356" text-anchor="middle" font-size="16" fill="#1f2328">SQLAlchemy models</text>
+  <text x="510" y="375" text-anchor="middle" font-size="13" fill="#57606a">conversations · essays · artifacts</text>
+
+  <!-- Data and models -->
+  <rect x="740" y="80" width="190" height="64" rx="10" fill="#fff8e6" stroke="#9a6700" stroke-width="2"/>
+  <text x="835" y="108" text-anchor="middle" font-size="17" font-weight="700" fill="#1f2328">Ollama</text>
+  <text x="835" y="128" text-anchor="middle" font-size="13" fill="#57606a">llama3.2 · chat answers</text>
+
+  <rect x="740" y="176" width="190" height="64" rx="10" fill="#fff8e6" stroke="#9a6700" stroke-width="2"/>
+  <text x="835" y="204" text-anchor="middle" font-size="17" font-weight="700" fill="#1f2328">transcripts.json</text>
+  <text x="835" y="224" text-anchor="middle" font-size="13" fill="#57606a">10 excerpts · 7 episodes</text>
+
+  <rect x="740" y="272" width="190" height="52" rx="10" fill="#fff8e6" stroke="#9a6700" stroke-width="2"/>
+  <text x="835" y="304" text-anchor="middle" font-size="17" font-weight="700" fill="#1f2328">PostgreSQL</text>
+
+  <rect x="740" y="352" width="190" height="52" rx="10" fill="#fff8e6" stroke="#9a6700" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="835" y="384" text-anchor="middle" font-size="17" font-weight="700" fill="#1f2328">SQLite</text>
+
+  <!-- Connections -->
+  <line x1="262" y1="200" x2="358" y2="200" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="310" y="188" text-anchor="middle" font-size="14" fill="#1f2328">REST JSON</text>
+
+  <line x1="662" y1="112" x2="738" y2="112" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="700" y="102" text-anchor="middle" font-size="14" fill="#1f2328">chat</text>
+
+  <line x1="662" y1="208" x2="738" y2="208" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="700" y="198" text-anchor="middle" font-size="14" fill="#1f2328">reads</text>
+
+  <line x1="662" y1="358" x2="738" y2="298" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="700" y="354" text-anchor="middle" font-size="14" fill="#1f2328">saves</text>
+
+  <line x1="835" y1="326" x2="835" y2="350" stroke="#57606a" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+  <text x="846" y="343" font-size="13" fill="#1f2328">fallback</text>
+
+  <!-- Legend -->
+  <line x1="40" y1="440" x2="90" y2="440" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="100" y="445" font-size="14" fill="#1f2328">primary path</text>
+  <line x1="240" y1="440" x2="290" y2="440" stroke="#57606a" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+  <text x="300" y="445" font-size="14" fill="#1f2328">used only if PostgreSQL is unreachable</text>
+  <text x="40" y="468" font-size="13" fill="#57606a">Ollama is optional: without it, chat returns an answer built from the quoted excerpts. Cloud LLM keys are read but never called.</text>
+</svg>
