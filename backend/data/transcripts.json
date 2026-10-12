@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ep1-chunk1",
+    "episode_number": 1,
+    "episode_title": "Early-Stage Strategy & Customer Discovery",
+    "guest": "Lenny Rachitsky",
+    "timestamp_start": "22:14",
+    "timestamp_end": "26:35",
+    "audio_seconds": 1334,
+    "topic_tags": ["customer discovery", "early stage", "interviews", "strategy"],
+    "quote": "Talking directly to 20-30 actual users will uncover painful workarounds that spreadsheets and analytics will never tell you.",
+    "text": "When you are in the 0 to 1 phase, quantitative data is mostly noise because your sample size is tiny. Talking directly to 20 to 30 actual users will uncover painful workarounds that spreadsheets and analytics will never tell you. Don't ask them what features they want built; ask them to walk you through the last time they tried to solve the problem and where they got stuck."
+  },
+  {
+    "id": "ep1-chunk2",
+    "episode_number": 1,
+    "episode_title": "Early-Stage Strategy & Customer Discovery",
+    "guest": "Lenny Rachitsky",
+    "timestamp_start": "34:10",
+    "timestamp_end": "37:45",
+    "audio_seconds": 2050,
+    "topic_tags": ["mvp", "shipping fast", "validation"],
+    "quote": "The biggest failure mode for technical founders is spending six months polishing code before putting it in front of five real humans.",
+    "text": "The biggest failure mode for technical founders is spending six months polishing code before putting it in front of five real humans. You have to shorten the feedback loop to hours, not weeks. Ship a rough prototype on Monday, watch someone use it on Tuesday, rewrite the confusing parts on Wednesday."
+  },
+  {
+    "id": "ep12-chunk1",
+    "episode_number": 12,
+    "episode_title": "Product-Market Fit & Traction",
+    "guest": "Peter Reinhardt",
+    "timestamp_start": "14:05",
+    "timestamp_end": "18:40",
+    "audio_seconds": 845,
+    "topic_tags": ["product-market fit", "pmf", "traction", "segment"],
+    "quote": "When you finally have PMF, the feeling changes from pushing a giant boulder uphill to desperately trying to keep up with incoming user demand.",
+    "text": "Before Segment found product-market fit, we spent almost two years building products that nobody cared about. We built a classroom lecture tool, then an analytics dashboard. We were pushing a giant boulder uphill. But when we released analytics.js as an open-source library, GitHub stars exploded, the repo was on Hacker News, and people were begging for enterprise features. When you finally have PMF, the feeling changes from pushing a giant boulder uphill to desperately trying to keep up with incoming user demand."
+  },
+  {
+    "id": "ep12-chunk2",
+    "episode_number": 12,
+    "episode_title": "Product-Market Fit & Traction",
+    "guest": "Peter Reinhardt",
+    "timestamp_start": "26:15",
+    "timestamp_end": "30:00",
+    "audio_seconds": 1575,
+    "topic_tags": ["hair on fire", "customer pain", "validation"],
+    "quote": "If you have to convince someone they have a problem, you don't have product-market fit.",
+    "text": "Look for hair-on-fire problems. If someone's hair is on fire, they don't care if the hose is pink or green; they just need water. If you have to convince someone they have a problem, you don't have product-market fit. They must already be feeling the pain and desperately seeking relief."
+  },
+  {
+    "id": "ep42-chunk1",
+    "episode_number": 42,
+    "episode_title": "Mental Models & Career Frameworks",
+    "guest": "Shreyas Doshi",
+    "timestamp_start": "28:15",
+    "timestamp_end": "32:50",
+    "audio_seconds": 1695,
+    "topic_tags": ["lno framework", "productivity", "prioritization", "leadership"],
+    "quote": "The biggest cause of burnout among high achievers is applying Leverage-level perfectionism to Overhead tasks.",
+    "text": "I categorize all product work into the LNO Framework: Leverage, Neutral, and Overhead. Leverage tasks have a 10x asymmetrical return—getting these right changes the trajectory of the company. Neutral tasks are 1x—they need to be done well and competently. Overhead tasks are fractional ROI—compliance, routine administrative work. The biggest cause of burnout among high achievers is applying Leverage-level perfectionism to Overhead tasks. You have to give yourself permission to do B- work on Overhead."
+  },
+  {
+    "id": "ep84-chunk1",
+    "episode_number": 84,
+    "episode_title": "Growth Loops & Retention Mechanics",
+    "guest": "Elena Verna & Brian Balfour",
+    "timestamp_start": "08:30",
+    "timestamp_end": "12:15",
+    "audio_seconds": 510,
+    "topic_tags": ["growth loops", "retention", "flywheel", "acquisition"],
+    "quote": "Linear funnels are dead. Sustainable products win when one cohort of users directly produces the inputs for the next cohort.",
+    "text": "The traditional funnel model—acquisition, activation, retention, revenue, referral—assumes a linear waterfall where you pour more money at the top. Linear funnels are dead because paid customer acquisition costs always rise over time. Sustainable products win when one cohort of users directly produces the inputs for the next cohort through compounding growth loops. Retention is the foundation of growth—if retention doesn't curve flat, pouring acquisition in is useless."
+  },
+  {
+    "id": "ep84-chunk2",
+    "episode_number": 84,
+    "episode_title": "Growth Loops & Retention Mechanics",
+    "guest": "Elena Verna & Brian Balfour",
+    "timestamp_start": "21:40",
+    "timestamp_end": "25:30",
+    "audio_seconds": 1300,
+    "topic_tags": ["plg", "product-led growth", "virality", "b2b"],
+    "quote": "Product-led growth isn't about removing sales; it's about using the product as the primary vehicle to acquire, activate, and retain users.",
+    "text": "Product-led growth isn't about removing sales; it's about using the product as the primary vehicle to acquire, activate, and retain users. In B2B, the best growth loops come from end-user virality: when a single knowledge worker adopts the tool, shares a link or an artifact, and organically pulls their teammates in before procurement is ever contacted."
+  },
+  {
+    "id": "ep103-chunk1",
+    "episode_number": 103,
+    "episode_title": "Finding Your Core User & The PMF Engine",
+    "guest": "Rahul Vohra",
+    "timestamp_start": "19:40",
+    "timestamp_end": "24:10",
+    "audio_seconds": 1180,
+    "topic_tags": ["pmf engine", "sean ellis", "superhuman", "benchmarks"],
+    "quote": "The Sean Ellis 40% rule: ask how disappointed users would be if your product disappeared tomorrow. If over 40% say very disappointed, you have product-market fit.",
+    "text": "At Superhuman, we reverse-engineered product-market fit using the Sean Ellis survey question: 'How would you feel if you could no longer use the product? A) Very disappointed, B) Somewhat disappointed, C) Not disappointed.' If over 40% of respondents answer 'Very disappointed', you have product-market fit. When we first surveyed our users, we were at only 22%. We then filtered our data to isolate who the 22% were, doubled down on what they loved, and systematically ignored requests from users who were not disappointed."
+  },
+  {
+    "id": "ep148-chunk1",
+    "episode_number": 148,
+    "episode_title": "Pricing Strategy & Value Metrics",
+    "guest": "Patrick Campbell",
+    "timestamp_start": "11:20",
+    "timestamp_end": "16:05",
+    "audio_seconds": 680,
+    "topic_tags": ["pricing", "monetization", "value metric", "packaging"],
+    "quote": "Most founders price based on costs or competitor copy-pasting. The winners price based on their value metric.",
+    "text": "Monetization has 4x the leverage on growth compared to acquisition. Yet the average company spends less than 10 hours total deciding on their pricing. Most founders price based on costs or competitor copy-pasting. The winners price based on their value metric—how the customer measures value, whether it's contacts, bandwidth, seats, or transactions. If your value metric scales as the customer succeeds, you get natural account expansion without friction."
+  },
+  {
+    "id": "ep165-chunk1",
+    "episode_number": 165,
+    "episode_title": "Founder Mode & The 11-Star Experience",
+    "guest": "Brian Chesky",
+    "timestamp_start": "17:30",
+    "timestamp_end": "22:45",
+    "audio_seconds": 1050,
+    "topic_tags": ["founder mode", "11-star experience", "airbnb", "craft"],
+    "quote": "Design an 11-star experience first. You can always scale it back, but it gives you a North Star of what mind-blowing delight looks like.",
+    "text": "At Airbnb, we had an exercise: What does a 5-star experience look like? You knock on the door, they let you in, clean room. Nice, but ordinary. What's a 6-star? There's a bottle of wine and fresh fruit. What's a 7-star? The host knows your favorite band and booked you front-row tickets. What's an 11-star? Elon Musk meets you at the airport and takes you to space. You can't realistically build the 11-star experience, but once you imagine it, you can easily build an unforgettable 8-star experience."
+  }
+]
